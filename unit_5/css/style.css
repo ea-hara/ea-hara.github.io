@@ -1,28 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Open+Sans:wght@800&display=swap');
 
 header {
-
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 nav {
-	font-family: 'Gentium Basic', serif;
-	text-decoration: none;
+	background-color: #E8C66A;
+	border: 1px black solid;
 	padding: 20px;
-	margin: 20px;
 }
 
 .hero {
-	font-family: 'Open Sans', sans-serif;
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-h2 {
-	font-family: 'Open Sans', sans-serif;
+.products {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-h3 {
-	font-family: 'Open Sans', sans-serif;
+.content {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 
-p {
-	font-family: 'Gentium Basic', serif;
+.ours {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
+
+.social {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+img {
+	width: 900px;
+}
+
+
