@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Open+Sans:wght@800&display=swap');
+
+header {
+
+}
+
+nav {
+	font-family: 'Gentium Basic', serif;
+	text-decoration: none;
+	padding: 20px;
+	margin: 20px;
+}
+
+.hero {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Gentium Basic', serif;
+}
