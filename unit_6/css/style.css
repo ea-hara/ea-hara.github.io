@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Open+Sans:wght@800&display=swap');
+
+header {
+	float: left;
+}
+
+nav {
+	display: inline-block;
+	background-color: green;
+	width: 1080px;
+}
+
+nav a {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	width: 300px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+
+#middle {
+	background-color: #FFC0CB;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 46%;
+}
+
+.hero {
+	background-image: url(images/handstitched.JPG);
+	padding: 20px;
+}
+
+.nav {
+	width: 250px;
+}
+
+.content {
+	clear: both;
+}
+
+.content img {
+	float: left;
+}
+
+.content h2 {
+	padding: 40px 0px;
+}
+
+.products {
+	clear: both;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height: 0;
+}
+
+.social {
+	clear: both;
+}
+
+
+
+
+
