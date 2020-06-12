@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Open+Sans:wght@800&display=swap');
+
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
 
 header {
 	float: left;
@@ -6,63 +9,60 @@ header {
 
 nav {
 	display: inline-block;
-	background-color: green;
-	width: 1080px;
-}
+	background-color: orange;
+	text-align: center;
+	width: 100%;
 
+}
 nav a {
+	font-family: 'Open Sans', sans-serif;
 	display: inline-block;
 	padding: 20px;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 img {
 	width: 300px;
 }
 
-#two_column {
+h1 {
+	font-family: 'Gentium Book Basic', serif;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 1.5;
+	width: 1000px;
+	padding-bottom: 20px;
+}
+
+#two_column section{
+	width: 50%;
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 10px;
 	float: left;
 }
 
-#left {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 46%;
-}
-
-#middle {
-	background-color: #FFC0CB;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-
-}
-
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 46%;
-}
-
 .hero {
+	clear: both;
 	background-image: url(images/handstitched.JPG);
 	padding: 20px;
 }
 
-.nav {
-	width: 250px;
+.utility-nav img {
+	width: 20px;
+	position: absolute;
 }
 
 .content {
 	clear: both;
+	background: yellow;
 }
 
 .content img {
