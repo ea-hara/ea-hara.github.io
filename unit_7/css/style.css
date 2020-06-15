@@ -1,0 +1,129 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.3;
+	width: 100%;
+	max-width: 1080px
+	margin: 0 auto;
+}
+
+header {
+	float: left;
+}
+
+nav {
+	width: 1000px;
+	display: inline-block;
+	background-color: orange;
+	text-align: center;
+}
+
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	padding: 15px;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	background-color: green;
+}
+
+img {
+	width: 300px;
+}
+
+h1 {
+	font-family: 'Gentium Book Basic', serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 1.5;
+	width: 1000px;
+	padding-bottom: 20px;
+}
+
+div {
+	display: block;
+}
+
+#two_column section {
+	width: 50%;
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+}
+
+#about section {
+	clear: both;
+	width: 50%;
+	background-color: green;
+	border: 1px black solid;
+	float: left;
+}
+
+.hero img {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.utility-nav {
+	position: absolute;
+	top: 0;
+	right: 3em;
+}
+
+.utility-nav img {
+	width: 30px;
+}
+
+.content {
+	clear: both;
+	background: yellow;
+}
+
+.content img {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content h2 {
+	padding: 40px 0px;
+}
+
+.products {
+	clear: both;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear: both;
+	height: 0;
+}
+
+.social {
+	clear: both;
+}
+
+
+
+
+
